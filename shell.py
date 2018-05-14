@@ -1,4 +1,4 @@
 import subprocess
 
-def run(args):
-    return subprocess.run(args, shell=True, check=True)
+def run(s):
+    return subprocess.run(s, check=True, shell=True)
